@@ -1,0 +1,12 @@
+.statistics-container{
+    background-color: #EF4040;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1540px; 
+    margin: 0 auto;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+}

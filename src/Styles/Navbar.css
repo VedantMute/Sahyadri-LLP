@@ -1,0 +1,26 @@
+*{margin: 0;padding: 0;}
+nav{
+    background-color: #000000;
+    color: white;
+}
+.navbar {
+    height: 4rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px; /* Set the maximum width */
+    margin: 0 auto; /* Center the content by adding auto margin on left and right */
+  }
+  
+  .menu-items {
+    display: flex;
+    gap: 4rem;
+  }
+  .menu-items div{
+    padding: 0.5rem;
+  }
+  .menu-items div:hover{
+    background-color: #EF4040;
+  }
+  

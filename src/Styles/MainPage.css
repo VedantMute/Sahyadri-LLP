@@ -1,0 +1,19 @@
+.main-container{
+    background-image: url("/src/assets/MainPage-background.png");
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    max-width: 1540px; 
+    margin: 0 auto;
+}
+.main-container-content{
+    margin-left: 5vw;
+    width: 30vw;
+}
+.main-container-content h2{
+    font-size: 4rem;
+}
+    
