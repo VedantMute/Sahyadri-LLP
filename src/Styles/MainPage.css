@@ -2,7 +2,7 @@
     background-image: url("/src/assets/MainPage-background.png");
     height: 75vh;
     background-size: cover;
-    background-position: center;
+    background-position: 65%;
     color: white;
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@
     width: 30vw;
 }
 .main-container-content h2{
-    font-size: 4rem;
+    font-size: clamp(48px, 4vw, 24px);
 }
 .read-more-button{
 margin-top: 1rem;
@@ -26,4 +26,39 @@ height: 2.4375rem;
 }
 .read-more-button:hover{
     background: #ea5e5e;
+}
+@media (max-width: 768px) {
+    .main-container-content h2{
+        font-size: 2rem;
+    }
+    .main-container-content{
+        margin-left: 5vw;
+        width: 50vw;
+    }
+  }
+  /* Landmarks main page css */
+/* .landmarks{
+    /* background-image: url('/src/assets/modern-cityscape-building-vector.jpg');
+    background-size: cover; */
+    /* background-position: center; */
+.landmark-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+.landmark-title{
+    margin: 3rem 12rem;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.image-border{
+    text-align: center;
+    background-color: #000000;
+    font-size: 2rem;
+    color: white;
 }

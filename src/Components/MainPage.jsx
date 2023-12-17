@@ -2,6 +2,7 @@ import React from 'react'
 import '../Styles/MainPage.css'
 import Statisticsbar from './Statisticsbar'
 import WhatWeDo from './WhatWeDo'
+import LandmarksMainPage from './LandmarksMainPage'
 export default function MainPage() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function MainPage() {
       </div>
       <Statisticsbar/>
       <WhatWeDo/>
+      <LandmarksMainPage/>
     </>
   )
 }
