@@ -1,17 +1,19 @@
 import React from 'react'
 import '../Styles/MainPage.css'
 import Statisticsbar from './Statisticsbar'
+import WhatWeDo from './WhatWeDo'
 export default function MainPage() {
   return (
     <>
       <div className="main-container">
         <div className="main-container-content">
-        <h2>From Concept <br /> to Creation </h2>
-        <p>fastest growing construction company in Pune, India with highbrowed experience within the industry. We excel at delivering construction services backed by cutting- edge technology and a thorough vision of delivering value to our customers.</p>
-        <button>Read More</button>
+        <h2>From Ideation <br /> to Realization </h2>
+        <p>As Pune's fastest-growing contract-based construction company with 20 years of industry expertise, we excel in delivering cutting-edge construction services. Our commitment to value, driven by advanced technology and a discerning vision, sets us apart in the sector.</p>
+        <button className='read-more-button'>Read More</button>
         </div>
       </div>
       <Statisticsbar/>
+      <WhatWeDo/>
     </>
   )
 }

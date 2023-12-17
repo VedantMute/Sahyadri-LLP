@@ -1,0 +1,37 @@
+.what-we-do{
+margin: 3rem 0;
+text-align: center;
+font-size: 2.8125rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.what-we-do-para{
+    text-align: center;
+    padding: 0 15vw;
+    line-height: 2rem;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.card-box{
+    width: 14rem;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card-box:hover{
+    background-color: #ffefef9a;
+}
+.card-box div{
+    display: flex;
+    justify-content: center;
+}
+.card-box div img{
+    height: 8rem;
+    width: 8rem;
+    padding: 1rem;
+}

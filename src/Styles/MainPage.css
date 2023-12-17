@@ -16,4 +16,14 @@
 .main-container-content h2{
     font-size: 4rem;
 }
-    
+.read-more-button{
+margin-top: 1rem;
+border-radius: 0.375rem;
+background: #EF4040;
+color: white;
+width: 8.125rem;
+height: 2.4375rem;
+}
+.read-more-button:hover{
+    background: #ea5e5e;
+}

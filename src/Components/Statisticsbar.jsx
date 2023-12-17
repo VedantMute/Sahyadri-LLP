@@ -5,7 +5,7 @@ export default function Statisticsbar() {
     <>
       <div className="statistics-container">
         <div className="box">
-            <div className="box-value">10+</div>
+            <div className="box-value">20+</div>
             <div className="box-description">Years</div>
         </div>
         <div className="box">
