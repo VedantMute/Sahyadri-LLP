@@ -59,6 +59,11 @@ height: 2.4375rem;
 .image-border{
     text-align: center;
     background-color: #000000;
-    font-size: 2rem;
+    font-size: 1rem;
     color: white;
+    padding: 5px 0;
+}
+.image-border:hover{
+    background-color: #FF5A5A;
+
 }

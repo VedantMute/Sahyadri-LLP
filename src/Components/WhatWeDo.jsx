@@ -1,15 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../Styles/WhatWeDo.css';
 import residentialImage from '../assets/residential.png';
 import commercialImage from '../assets/commercial.png';
 import healthcareImage from '../assets/healthcare.png';
 import schoolImage from '../assets/school.png';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const WhatWeDo = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <>
       <div>
-        <h2 className='what-we-do'>WHAT WE DO</h2>
+        <h2 data-aos="fade-in" className='what-we-do'>WHAT WE DO</h2>
         <p className='what-we-do-para'>
           From our inception, we've honed our expertise in crafting design-built, turn-key, core and shell projects within the Residential, Commercial, Educational, Healthcare, and Industrial realms. Our unwavering focus centers on transforming skylines by establishing unparalleled benchmarks in the strategic planning, adept management, and flawless execution of expansive construction ventures. Embracing a collaborative and innovation-centric ethos, we specialize in constructing infrastructure that is not only sustainable but also uniquely adaptable to the dynamic shifts of the times. As a contract-based construction company, we take pride in delivering projects that redefine excellence in the construction landscape.
         </p>
