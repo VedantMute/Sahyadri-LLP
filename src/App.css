@@ -15,3 +15,6 @@ font-weight: 700;
 .yellow-text{
     color: #EF4040;
 }
+::selection {
+    background: #EF4040;
+  }
