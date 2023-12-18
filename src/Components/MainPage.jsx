@@ -3,6 +3,7 @@ import '../Styles/MainPage.css'
 import Statisticsbar from './Statisticsbar'
 import WhatWeDo from './WhatWeDo'
 import LandmarksMainPage from './LandmarksMainPage'
+import OurClients from './OurClients'
 export default function MainPage() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function MainPage() {
       <Statisticsbar/>
       <WhatWeDo/>
       <LandmarksMainPage/>
+      <OurClients/>
     </>
   )
 }
