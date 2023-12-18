@@ -4,21 +4,82 @@
     align-items: center;
 }
 .about-company{
-    padding: 150px 0;
+    padding: 100px 0 100px 0;
     display: flex;
     justify-content: center;
     width: 100vw;
 }
-.about-company h3{
-    font-size: 2.8125rem;
-    text-align: center;
+h3{
+    margin: 3rem 0;
+text-align: center;
+font-size: 2.8125rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
 }
 .about-company p{
     /* width: 57%; */
     text-align: center;
-    padding: 0 150px;
+    line-height: 28px;
+    /* padding: 0 150px; */
 }
 .about-companny-banner img{
     width: 50vw;
     height: 30vw;
+}
+.about-company-info-para{
+    margin: 0 5vw;
+    padding: 1rem;
+    background-color: rgb(216, 216, 216);
+    border-radius: 16px;
+}
+.quality{
+    gap: 12px;
+    margin: 0 12vw;
+}
+.quality, .quality-box{
+    display: flex;
+    padding: 0 0 2rem 0;
+}
+.quality-box{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    border-radius: 8px;
+
+}
+.quality-details{
+    padding:  0 1rem;
+}
+.quality-heading{
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.dirctor-message-container{
+    display: flex;
+    margin: 1rem 0 0 0;
+}
+.directors-message, .directors-image{
+ 
+    background-color: #EF4040;
+    
+}
+.directors-message{
+    padding: 5vw;
+    text-align: justify;
+    height: 35vw;
+    font-size: 1.2rem;
+}
+
+.directors-image img{
+    width: 50vw;
+    height: 35vw;
+}
+.director-name{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.position{
+    font-size: 1rem;
+    margin-left: 8px;
 }

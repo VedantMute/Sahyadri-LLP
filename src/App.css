@@ -1,9 +1,17 @@
 /* Title CSS */
 .title-container{
-    background-color: #EF4040;
+    background-image: url('/src/assets/title-banner.jpg');
+    background-size: bottom;
     text-align: center;
     padding: 7rem 0;
+    color: white;
+    
 }
 .title-container h3{
-    font-size: 3rem;
+    font-size: 2.8125rem;
+font-style: normal;
+font-weight: 700;
+}
+.yellow-text{
+    color: #EF4040;
 }
