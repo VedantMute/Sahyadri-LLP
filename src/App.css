@@ -1,0 +1,9 @@
+/* Title CSS */
+.title-container{
+    background-color: #EF4040;
+    text-align: center;
+    padding: 7rem 0;
+}
+.title-container h3{
+    font-size: 3rem;
+}

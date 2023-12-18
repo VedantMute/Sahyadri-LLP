@@ -8,6 +8,7 @@
     align-items: center;
     max-width: 1540px; 
     margin: 0 auto;
+    
 }
 .main-container-content{
     margin-left: 5vw;
@@ -45,6 +46,7 @@ height: 2.4375rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 2rem;
     margin: 2rem;
 }

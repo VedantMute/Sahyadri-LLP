@@ -1,0 +1,24 @@
+.about-company-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-company{
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.about-company h3{
+    font-size: 2.8125rem;
+    text-align: center;
+}
+.about-company p{
+    /* width: 57%; */
+    text-align: center;
+    padding: 0 150px;
+}
+.about-companny-banner img{
+    width: 50vw;
+    height: 30vw;
+}

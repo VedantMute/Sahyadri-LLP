@@ -3,6 +3,10 @@ nav{
     background-color: #000000;
     color: white;
 }
+.linkColor {
+  color: white;
+  text-decoration: none;
+}
 .navbar {
     height: 4rem;
     font-size: 1.2rem;
