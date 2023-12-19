@@ -65,7 +65,7 @@ export default function Footer() {
           <div className="col-md-8 col-sm-6 col-xs-12">
             <p className="copyright-text">
               Copyright © 2023 All Rights Reserved by
-             Sahyadri Development and Construction LLP <br />Designed and Developed by <a href="">Vedant</a>
+             Sahyadri Development and Construction LLP <br />Designed and Developed by <a href="https://in.linkedin.com/in/vedant-mute">Vedant</a>
             </p>
           </div>
           <div className="col-md-4 col-sm-6 col-xs-12">
