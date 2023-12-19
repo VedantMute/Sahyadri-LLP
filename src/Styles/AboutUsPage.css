@@ -61,14 +61,14 @@ text-transform: uppercase;
 }
 .directors-message, .directors-image{
  
-    background-color: #EF4040;
+    background-color: #dbd6d6;
     
 }
 .directors-message{
     padding: 5vw;
     text-align: justify;
     height: 35vw;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .directors-image img{
@@ -82,4 +82,35 @@ text-transform: uppercase;
 .position{
     font-size: 1rem;
     margin-left: 8px;
+}
+
+@media (max-width: 800px) {
+    .about-company-info-para p{
+        font-size: 1rem;
+        /* line-height: 1.3rem; */
+        text-align: justify;
+    }
+    .quality{
+        flex-wrap: wrap;
+    }
+    .dirctor-message-container{
+        flex-wrap: wrap-reverse;
+    }
+
+    .directors-image img{
+        width: 100vw;
+        height: 80vw;
+    }
+    .directors-message{
+        padding: 5vw;
+        text-align: justify;
+        height: 100vw;
+        font-size: 1rem;
+    }
+    .director-name{
+        font-size: 1.7125rem; 
+    }
+    h3{
+        font-size: 1.7125rem; 
+    }
 }
