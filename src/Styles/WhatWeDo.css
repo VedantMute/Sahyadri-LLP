@@ -35,3 +35,29 @@ text-transform: uppercase;
     width: 8rem;
     padding: 1rem;
 }
+@media (max-width: 800px) {
+    
+    .what-we-do{
+        font-size: 1.5125rem; 
+        }
+    .what-we-do-para{
+    line-height: 1.5rem;
+    padding: 0 5vw;
+    text-align: justify;
+    font-size: 0.8rem;
+        
+    }
+    .card-container{
+        flex-wrap: wrap;
+    }
+    .card-box div img{
+        height: 6rem;
+        width: 6rem;
+        padding: 1rem;
+    }
+    .card-box{
+        width: 7rem;
+        border-radius: 4px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+}

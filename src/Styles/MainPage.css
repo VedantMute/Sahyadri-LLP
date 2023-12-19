@@ -16,6 +16,7 @@
 }
 .main-container-content h2{
     font-size: clamp(48px, 4vw, 24px);
+    
 }
 .read-more-button{
 margin-top: 1rem;
@@ -28,14 +29,25 @@ height: 2.4375rem;
 .read-more-button:hover{
     background: #ea5e5e;
 }
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+    .main-container-content{
+        width: 70vw;
+    }
     .main-container-content h2{
         font-size: 2rem;
     }
-    .main-container-content{
-        margin-left: 5vw;
-        width: 50vw;
+    .main-container-content p{
+        font-size: 0.8rem;
     }
+    .read-more-button{
+        margin-top: 1rem;
+        border-radius: 0.375rem;
+        background: #EF4040;
+        color: white;
+        width: 7.125rem;
+        height: 1.8375rem;
+        }
+    
   }
   /* Landmarks main page css */
 /* .landmarks{
@@ -68,4 +80,16 @@ height: 2.4375rem;
 .image-border:hover{
     background-color: #FF5A5A;
 
+}
+@media (max-width: 1200px) {
+    .landmark-title{
+        margin: 3rem 1rem;
+        font-size: 1.5125rem;
+        
+        font-weight: 700;
+       
+    }
+    .landmark-image img {
+        width: 75vw;
+    };
 }
