@@ -18,3 +18,7 @@ font-weight: 700;
 ::selection {
     background: #EF4040;
   }
+  .privacy-policy, .sitemap{
+    margin: 5vw;
+    width: 65vw;
+  }
