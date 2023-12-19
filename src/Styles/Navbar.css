@@ -29,9 +29,9 @@ nav{
     background-color: #EF4040;
     border-radius: 0.375rem;
   }
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .menu-items {
       display: none;
       gap: 4rem;
     }
-  }
+  } */
