@@ -1,6 +1,9 @@
 import React from 'react'
 import '../Styles/Footer.css'
 import { Link } from 'react-router-dom'
+import instagram from '../assets/instagram.png'
+import linkedin from '../assets/linkedin.png'
+import facebook from '../assets/facebook.png'
 export default function Footer() {
   return (
     <><>
@@ -68,24 +71,20 @@ export default function Footer() {
             <ul className="social-icons">
               <li>
                 <a className="facebook" href="#">
-                  <i className="fa fa-facebook" />
+                <img src={facebook} className='social-icon' alt="" />
                 </a>
               </li>
               <li>
                 <a className="twitter" href="#">
-                  <i className="fa fa-twitter" />
+                <img src={instagram} className='social-icon' alt="" />
                 </a>
               </li>
               <li>
                 <a className="dribbble" href="#">
-                  <i className="fa fa-dribbble" />
+                <img src={linkedin} className='social-icon' alt="" />
                 </a>
               </li>
-              <li>
-                <a className="linkedin" href="#">
-                  <i className="fa fa-linkedin" />
-                </a>
-              </li>
+             
             </ul>
           </div>
         </div>

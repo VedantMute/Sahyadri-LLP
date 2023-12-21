@@ -5,8 +5,9 @@ import qualityImage1 from '../assets/about-best-cost.png'
 import qualityImage2 from '../assets/about-best-quality.png'
 import qualityImage3 from '../assets/about-best-rated.png'
 import aboutCompanyBanner from "../assets/about-banner.png";
-import az1 from "../assets/lala1.jpg";
-import az2 from "../assets/lala2.jpg";
+import director1 from "../assets/Director1.jpg";
+import director2 from "../assets/Director2.jpg";
+
 export default function AboutUsPage() {
   return (
     <>
@@ -59,7 +60,7 @@ As we reflect on our 20+ years of service, our commitment to pushing the boundar
         <div className="directors-message">
           <h4 className="director-name">Mr. Pravin Patel <span className="position">- Director</span> </h4><p>"In my capacity as Director at SDC, my foremost mission is to chart a course of excellence, originality, and client fulfillment. We are devoted to constructing not merely buildings but enduring spaces that transcend expectations. From our inaugural venture to each subsequent project, we aim to redefine our industry benchmarks, earning SDC a reputation for quality and innovation. I am committed to fostering a workplace culture that prizes the skills, creativity, and well-being of our team members."</p></div>
         <div className="directors-image">
-          <img src={aboutCompanyBanner} alt="" />
+          <img src={director1} alt="" />
         </div>
       </div>
       <div className="dirctor-message-container">
@@ -67,7 +68,7 @@ As we reflect on our 20+ years of service, our commitment to pushing the boundar
         <div className="directors-message">
           <h4 className="director-name">Mr. Mandar Mate<span className="position">- Director</span> </h4><p>"In my role as the Director at SDC, I am dedicated to steering our vision with a focus on ingenuity, collaboration, and client triumph. Our mission is to revolutionize construction norms, delivering influential projects that showcase our unwavering commitment. Together, we're crafting a lasting legacy of distinction, reshaping environments, and ensuring SDC stands as a beacon of inventive solutions and trust in the construction landscape. Let's embark on this journey of excellence."</p></div>
           <div className="directors-image">
-          <img src={aboutCompanyBanner} alt="" />
+          <img src={director2} alt="" />
         </div>
         
       </div>

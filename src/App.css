@@ -35,4 +35,46 @@ font-weight: 700;
     margin: 5vw;
     width: 65vw;
   }
-  
+  /* OUR CLIENTS CSS */
+.our-clients-slider{
+margin-bottom: 3rem;
+  }
+.wrapper {
+	display: flex;
+	width: 75vw;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 2.5rem;
+
+}
+.item {
+	animation: animate 25s alternate linear infinite;
+}
+.container:hover .item {
+	animation-play-state: paused;
+}
+@keyframes animate {
+	0% {
+		transform: translate3d(0, 0, 0);
+	}
+	100% {
+		transform: translate3d(-1100px, 0, 0);
+	}
+}
+@media (max-width:767px) {
+	.slider-area h2 {
+		font-size: 30px;
+	}
+	.wrapper {
+		width: 95%;
+		border-radius: 0;
+		padding: 0;
+	}
+}
+.item{
+    margin: 0 50px;
+}
+.item img{
+    width: 250px;
+    height: 75px;
+}
