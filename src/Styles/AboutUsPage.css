@@ -31,12 +31,15 @@ text-transform: uppercase;
 .about-company-info-para{
     margin: 0 5vw;
     padding: 1rem;
-    background-color: rgb(216, 216, 216);
+    background-color: #f5f5f5;
     border-radius: 16px;
 }
 .quality{
-    gap: 12px;
+    gap: 24px;
     margin: 0 12vw;
+}
+.quality-box:hover{
+   background-color: #f9f9f9;
 }
 .quality, .quality-box{
     display: flex;
@@ -59,9 +62,13 @@ text-transform: uppercase;
     display: flex;
     margin: 1rem 0 0 0;
 }
+.dirctor-message-container-two{
+    display: flex;
+    margin: 1rem 0 0 0;
+}
 .directors-message, .directors-image{
  
-    background-color: #dbd6d6;
+    background-color: #f9f9f9;
     
 }
 .directors-message{

@@ -63,11 +63,12 @@ As we reflect on our 20+ years of service, our commitment to pushing the boundar
         </div>
       </div>
       <div className="dirctor-message-container">
-      <div className="directors-image">
-          <img src={aboutCompanyBanner} alt="" />
-        </div>
+      
         <div className="directors-message">
           <h4 className="director-name">Mr. Mandar Mate<span className="position">- Director</span> </h4><p>"In my role as the Director at SDC, I am dedicated to steering our vision with a focus on ingenuity, collaboration, and client triumph. Our mission is to revolutionize construction norms, delivering influential projects that showcase our unwavering commitment. Together, we're crafting a lasting legacy of distinction, reshaping environments, and ensuring SDC stands as a beacon of inventive solutions and trust in the construction landscape. Let's embark on this journey of excellence."</p></div>
+          <div className="directors-image">
+          <img src={aboutCompanyBanner} alt="" />
+        </div>
         
       </div>
     </>

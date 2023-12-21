@@ -81,6 +81,9 @@ height: 2.4375rem;
     background-color: #FF5A5A;
 
 }
+.landmark-image img:hover {
+    opacity: 0.7;
+};
 @media (max-width: 1200px) {
     .landmark-title{
         margin: 3rem 1rem;
