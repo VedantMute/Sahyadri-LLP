@@ -88,9 +88,9 @@ height: 2.4375rem;
     .landmark-title{
         margin: 3rem 1rem;
         font-size: 1.5125rem;
-        
+        font-style: normal;
         font-weight: 700;
-       
+
     }
     .landmark-image img {
         width: 75vw;

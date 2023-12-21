@@ -22,7 +22,7 @@ function Navbar() {
             className="d-inline-block align-top "
             alt=""
           /></div>
-          <div className='logo-name'>Sahyadri LLP <br /><span>formely abcd</span></div>
+          <div className='logo-name'>Sahyadri LLP <br /><span>Formely Tarangan Associates</span></div>
           </div>
           
         </a>
