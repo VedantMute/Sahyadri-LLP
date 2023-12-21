@@ -1,12 +1,17 @@
 /* Title CSS */
-.title-container{
-    background-image: url('/src/assets/title-banner.jpg');
-    background-size: bottom;
+.title-container {
+    background-image: 
+      linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), /* Gradient overlay */
+      url('/src/assets/title-banner.jpg'); /* Background image */
+    background-size: cover; /* Ensure image fills the container */
+    background-position: center;
     text-align: center;
     padding: 7rem 0;
-    color: white;
-    
-}
+    color: rgb(255, 255, 255);
+    max-width: 1540px; 
+    margin: 0 auto;
+  }
+  
 a{
     /* text-decoration: none; */
     color: white;
@@ -16,7 +21,7 @@ a:hover{
     color: rgb(0, 4, 255);
 }
 .title-container h3{
-    font-size: 2.8125rem;
+    font-size: 3.8125rem;
 font-style: normal;
 font-weight: 700;
 }

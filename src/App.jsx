@@ -8,6 +8,8 @@ import AboutUsPage from "./Components/AboutUsPage";
 import ContactUs from "./Components/ContactUs";
 import PrivacyPolicy from "./Components/PrivacyPolicy";
 import Sitemap from "./Components/Sitemap";
+import AsDeveloperProjects from "./Components/AsDeveloperProjects";
+import AsContractorProjects from "./Components/AsContractorProjects";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,6 +24,8 @@ function App() {
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/privacypolicy" element={<PrivacyPolicy />} />
           <Route path="/sitemap" element={<Sitemap />} />
+          <Route path="/developer-projects" element={<AsDeveloperProjects />} />
+          <Route path="/contractor-projects" element={<AsContractorProjects />} />
         </Routes>
         <Footer />
       </BrowserRouter>

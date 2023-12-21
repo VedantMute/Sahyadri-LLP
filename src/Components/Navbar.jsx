@@ -63,11 +63,11 @@ function Navbar() {
               </a>
               <ul className="dropdown-menu bg-dark">
                 <li className="dropdown-item hover-red">
-                  <a className="text-white no-underline" href="#">As developer</a>
+                  <Link className="text-white no-underline" to="/developer-projects">As developer</Link>
                 </li>
                 <hr className="dropdown-divider" />
                 <li className="dropdown-item hover-red">
-                  <a className="text-white no-underline" href="#">As Contractor</a>
+                  <Link className="text-white no-underline" to="/contractor-projects">As Contractor</Link>
                 </li>
                 {/* ... */}
               </ul>
