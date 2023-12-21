@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../Styles/Navbar.css';
 import logo from "../assets/logoIcon.png"
+import hamburgericon from "../assets/icons8-hamburger-50.png"
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -28,7 +29,7 @@ function Navbar() {
         </a>
 
         <button
-          className="navbar-toggler bg-white"
+          className="navbar-toggler hamburger"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -36,7 +37,7 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon " />
+          <img src={hamburgericon} alt="Hamburger Menu" className="navbar-toggler-icon hamburger-icon" /> {/* Use your icon here */}
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">

@@ -1,5 +1,5 @@
 .main-container{
-    background-image: url("/src/assets/MainPage-background.png");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),  url("/src/assets/MainPage-background.png");
     height: 75vh;
     background-size: cover;
     background-position: 65%;

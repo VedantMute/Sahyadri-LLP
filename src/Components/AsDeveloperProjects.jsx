@@ -59,7 +59,7 @@ export default function AsDeveloperProjects({ projects = projectsData }) {
         <h3>
           <span className="yellow-text">CONSTRUCTION </span>AND DEVELOPMENT
         </h3>
-        <div className="pro-cards">
+        <div  className="pro-cards">
           {projects.map((project) => (
             <div key={project.title} className="pro-card">
               <div className="pro-image">
