@@ -38,7 +38,7 @@
 }
 
 .pro-image img {
-    height: auto;
+    height: 35vh;
     width: 100%;
 }
 
@@ -75,11 +75,13 @@
 }
 @media screen and (max-width: 1024px) {
     .pro-cards {
-        width: 80%;
+        width: 89%;
+       
     }
 
     .pro-card {
         flex: 1 0 calc(50% - 20px);
+        
     }
 
     .pro-content a {
