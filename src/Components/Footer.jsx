@@ -19,20 +19,16 @@ export default function Footer() {
             <ul className="footer-links">
               
               <li>
-                <a href="">
+                <Link to="/developer-projects">
                   Magarpatta City
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="">
+                <Link to="/developer-projects">
                  Nanded City
-                </a>
+                </Link>
               </li>
-              <li>
-                <a href="">
-                  Something City
-                </a>
-              </li>
+              
             </ul>
           </div>
           <div className="col-xs-6 col-md-3">
