@@ -76,12 +76,13 @@ export default function Footer() {
               </li>
               <li>
                 <a className="twitter" href="#">
-                <img src={instagram} className='social-icon' alt="" />
+                <img src={linkedin} className='social-icon' alt="" />
+                
                 </a>
               </li>
               <li>
                 <a className="dribbble" href="#">
-                <img src={linkedin} className='social-icon' alt="" />
+                <img src={instagram} className='social-icon' alt="" />
                 </a>
               </li>
              
