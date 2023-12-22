@@ -94,7 +94,7 @@ export default function AboutUsPage() {
         <span className="yellow-text">Director's</span> Words of Wisdom
       </h3>
 
-      <div className="dirctor-message-container">
+      <div  className="dirctor-message-container">
         <div className="directors-message">
           <h4 className="director-name">
             Mr. Pravin Patel <span className="position">- Director</span>{" "}

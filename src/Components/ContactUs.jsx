@@ -5,7 +5,7 @@ import map from "../assets/map.png";
 import phone from "../assets/phone.png";
 import email from "../assets/email.png";
 import location from "../assets/location.png";
-import businesscontact from "../assets/contact-banner.png";
+import businesscontact from "../assets/contact-banner.jpeg";
 
 const ContactBox = ({ imageSrc, heading, info }) => {
   return (

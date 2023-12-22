@@ -34,6 +34,7 @@ font-weight: 700;
   .privacy-policy, .sitemap{
     margin: 5vw;
     width: 65vw;
+    text-align: justify;
   }
   /* OUR CLIENTS CSS */
 .our-clients-slider{
@@ -73,6 +74,7 @@ margin-bottom: 3rem;
   .privacy-policy, .sitemap{
     margin: 5vw;
     width: 75vw;
+    
   }
 }
 .item{
