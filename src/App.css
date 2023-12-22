@@ -1,4 +1,8 @@
 /* Title CSS */
+body{
+  max-width: 1540px; 
+    margin: 0 auto;
+}
 .title-container {
     background-image: 
       linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), /* Gradient overlay */
@@ -39,6 +43,9 @@ font-weight: 700;
   /* OUR CLIENTS CSS */
 .our-clients-slider{
 margin-bottom: 3rem;
+max-width: 1540px; 
+    margin: 0 auto;
+    
   }
 .wrapper {
 	display: flex;

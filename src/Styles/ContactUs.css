@@ -23,8 +23,9 @@
     display: flex;
 }
 .business-contact-image img{
-    width: 50vw;
+    width: 50rem;
     margin-top: 7rem;
+    
 }
 .business-contact-form{
     padding: 3rem;
@@ -34,7 +35,7 @@
     
 }
 .input div input{
-    width: 40vw;
+    width: 40rem;
     height: 3rem;
     margin: 1rem 0;
     outline: none;
@@ -52,8 +53,12 @@
 .submitButton:hover{
     background-color: #EF4040;
 }
+.map{
+    max-width: 1540px; 
+    margin: 0 auto;
+}
 .map img{
-    width: 95vw;
+    width: 93rem;
     margin: 5rem 1rem;
 }
 @media (max-width: 800px) {
