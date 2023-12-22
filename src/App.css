@@ -70,6 +70,10 @@ margin-bottom: 3rem;
 		border-radius: 0;
 		padding: 0;
 	}
+  .privacy-policy, .sitemap{
+    margin: 5vw;
+    width: 75vw;
+  }
 }
 .item{
     margin: 0 50px;
