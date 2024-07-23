@@ -97,7 +97,7 @@ export default function AboutUsPage() {
       <div  className="dirctor-message-container">
         <div className="directors-message">
           <h4 className="director-name">
-            Mr. Pravin Patel <span className="position">- Director</span>{" "}
+            Mr. Pravin Patil <span className="position">- Director</span>{" "}
           </h4>
           <p>
             "In my capacity as Director at SDC, my foremost mission is to chart
