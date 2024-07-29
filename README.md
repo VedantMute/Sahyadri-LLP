@@ -18,3 +18,6 @@ During my internship at Sahyadri Development and Construction LLP, I spearheaded
 - **Collaborative Approach**: Collaborated with the team to align the website design with company goals and objectives.
 - **Project Management**: Gained valuable project management experience throughout the development process, ensuring timely delivery and adherence to requirements.
 
+## Developed By
+
+Vedant Mute
